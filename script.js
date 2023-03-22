@@ -1,5 +1,5 @@
 // Load the data
-d3.csv("https://datawrapper.dwcdn.net/AS6w5/6/data.csv", function(data) {
+d3.csv("data.csv", function(data) {
 
   // set the dimensions and margins of the graph
 var margin = {top: 20, right: 30, bottom: 40, left: 90},
